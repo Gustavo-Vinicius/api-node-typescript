@@ -4,7 +4,7 @@ const server = express();
 
 server.get('/', (req: Request, res: Response) => {
     res.send('Hello World!');
-    });
+});
 
 export { server };
 
